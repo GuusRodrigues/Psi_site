@@ -29,38 +29,37 @@ psicologo-site/
 └── package.json
 
 ---
-✅ Funcionalidades previstas
- Página inicial com resumo e CTA
 
- Página "Sobre" com informações profissionais
+## ✅ Funcionalidades previstas
 
- Página "Serviços" com especialidades
+ - Página inicial com resumo e CTA
+ - Página "Sobre" com informações profissionais
+ - Página "Serviços" com especialidades
+ - Página "Contato" com formulário
+ - Integração futura com backend para formulários
+ - Inclusão de blog com dicas e artigos
+ - Tradução multilíngue (português e inglês)
+   
+---
 
- Página "Contato" com formulário
+## 🔐 Segurança
 
- Integração futura com backend para formulários
+- Certificado HTTPS via Vercel
+- Validação de campos de formulário
+- Sem armazenamento de dados no frontend
+- Preparado para integração com reCAPTCHA e envio seguro
 
- Inclusão de blog com dicas e artigos
+---
 
- Tradução multilíngue (português e inglês)
+## 📦 Deploy
 
-🔐 Segurança
-Certificado HTTPS via Vercel
-
-Validação de campos de formulário
-
-Sem armazenamento de dados no frontend
-
-Preparado para integração com reCAPTCHA e envio seguro
-
-📦 Deploy
 O projeto utiliza Vercel para CI/CD:
+- Cada push na branch main atualiza automaticamente o site.
+- Deploy manual também pode ser feito com vercel --prod.
 
-Cada push na branch main atualiza automaticamente o site.
+---
 
-Deploy manual também pode ser feito com vercel --prod.
-
-✍️ Autor
+## ✍️ Autor
 Desenvolvido por Gustavo Rodrigues
 LinkedIn | Portfólio
 
