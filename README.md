@@ -29,23 +29,6 @@ psicologo-site/
 └── package.json
 
 ---
-
-## 🚀 Como rodar o projeto localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
-
-# Acesse o diretório
-cd psicologo-site
-
-# Instale as dependências
-npm install
-
-# Rode em modo de desenvolvimento
-npm run dev
-Abra http://localhost:3000 no navegador para visualizar.
-
 ✅ Funcionalidades previstas
  Página inicial com resumo e CTA
 
@@ -80,3 +63,22 @@ Deploy manual também pode ser feito com vercel --prod.
 ✍️ Autor
 Desenvolvido por Gustavo Rodrigues
 LinkedIn | Portfólio
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
+
+# Acesse o diretório
+cd psicologo-site
+
+# Instale as dependências
+npm install
+
+# Rode em modo de desenvolvimento
+npm run dev
+
+Abra http://localhost:3000 no navegador para visualizar.
