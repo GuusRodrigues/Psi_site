@@ -10,8 +10,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "rgb(var(--background))",
-        foreground: "rgb(var(--foreground))",
+          primary: '#6C733C',
+          background: '#ECE4D7',
+          accent: '#D8A45B',
+          neutral: '#99937B',
+          soft: '#F2DBAE',
+          beige: '#AAAA88',
+          textbranco: '#FAFAFA',
       },
     },
   },
