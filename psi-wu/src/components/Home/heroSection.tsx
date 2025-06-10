@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="absolute top-0 right-0 h-full w-full sm:w-1/2 bg-[#6C733C]/80 text-[#FAFAFA] flex items-center px-6 sm:px-12">
         <div className="max-w-md space-y-4">
           <h1 className="text-3xl sm:text-4xl font-semibold leading-snug">
-            Você não é apenas um visitante
+           Aqui, você não é apenas um visitante
           </h1>
           <p className="text-base sm:text-lg leading-relaxed">
             Mas um convidado especial. Você merece alguém ao seu lado disposto a
