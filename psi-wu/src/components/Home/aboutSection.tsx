@@ -4,6 +4,11 @@ import Link from "next/link";
 export function AboutSection() {
   return (
     <section className="w-full py-12 px-6 sm:px-12">
+      <div className="pt-20 pb-12 px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary">
+          Sobre mim
+        </h2>
+      </div>
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         {/* Texto à esquerda */}
         <div className="w-full md:w-1/2 space-y-4 text-primary">
