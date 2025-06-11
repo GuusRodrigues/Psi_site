@@ -15,3 +15,24 @@
     @apply text-textbranco hover:text-accent transition-colors;
   }
 }
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-primary text-textbranco px-6 py-3 rounded-lg transition;
+  }
+  .section-py {
+    @apply py-[5rem]; /* 80px */
+  }
+  .section-px {
+    @apply px-6 sm:px-12;
+  }
+  .section-gap {
+    @apply gap-10;
+  }
+  .section-mb {
+    @apply mb-[5rem];
+  }
+  .title-mb {
+    @apply mb-[3rem];
+  }
+}

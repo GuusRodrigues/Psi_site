@@ -18,6 +18,13 @@ module.exports = {
           beige: '#AAAA88',
           textbranco: '#FAFAFA',
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      spacing: {
+        section: '5rem', // 80px (para margins/paddings principais)
+        subsection: '3rem' // 48px (para espaços internos)
+      }
     },
   },
   plugins: [],
