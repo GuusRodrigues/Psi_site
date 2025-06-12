@@ -26,6 +26,18 @@ export function HeroSection() {
             </p>
             <p className="italic text-sm sm:text-base mt-4">Seja muito bem-vindo (a).</p>
             <p className="text-sm sm:text-base font-semibold">Psicólogo Yuri Wu</p>
+            
+            <div className="absolute bottom-6 right-6 z-10" >
+                <a
+                href="https://wa.me/+5581995749052"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 border-2 border-soft text-soft rounded-lg hover:bg-soft hover:text-primary transition-colors duration-300"
+                aria-label="Agendar consulta via WhatsApp"
+              >
+                Entre em contato
+              </a>
+            </div>
           </div>
         </div>
       </div>
