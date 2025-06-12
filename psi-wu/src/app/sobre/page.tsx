@@ -62,7 +62,7 @@ export default function SobrePage() {
           <div className="w-full md:w-3/5 space-y-6">
             <div className="space-y-4 md:space-y-6 text-primary">
               <p className="leading-relaxed text-base md:text-lg">
-                Iniciei minha trajetória acadêmica com foco em psicologia infantil, mas isso mudou. Estudando a infância despertei o meu olhar para jovens e adultos com o questionamento: "O que aconteceu com a criança que um dia fomos?".
+                Iniciei minha trajetória acadêmica com foco em psicologia infantil, mas isso mudou. Estudando a infância despertei o meu olhar para jovens e adultos com o questionamento: O que aconteceu com a criança que um dia fomos?.
               </p>
               <p className="leading-relaxed text-base md:text-lg">
                 A partir disso, surge um compromisso em ajudar aqueles que enfrentaram desafios ou experiências que comprometeram sua capacidade de viver uma vida plena e significativa.
