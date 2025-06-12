@@ -1,4 +1,4 @@
-// components/shared/SectionWrapper.tsx
+// components/SectionWrapper.tsx
 import { ReactNode } from 'react';
 
 type SectionWrapperProps = {
