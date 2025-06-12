@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,25 +22,38 @@ export function Navbar() {
           Yuri Wu • Psicólogo
         </Link>
 
-        {/* Desktop links */}
-        <ul className="hidden sm:flex gap-6 text-sm">
-          {links.map((link) => (
-            <li key={link.href}>
-              <Link href={link.href} className="hover:underline">
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="flex items-center gap-4">
+          {/* Desktop links */}
+          <ul className="hidden sm:flex gap-6 text-sm">
+            {links.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} className="hover:underline">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
 
-        {/* Mobile toggle button */}
-        <button
-          className="sm:hidden"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label="Abrir menu"
-        >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+          {/* WhatsApp Icon */}
+          <a
+            href="https://wa.me/+5581995749052"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contato via WhatsApp"
+            className="ml-4 hover:text-green-400 transition-colors"
+          >
+            <FaWhatsapp size={22} />
+          </a>
+
+          {/* Mobile toggle button */}
+          <button
+            className="sm:hidden"
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Abrir menu"
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
@@ -57,6 +71,16 @@ export function Navbar() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href="https://wa.me/+5581995749052"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:underline"
+              >
+                <FaWhatsapp size={18} /> WhatsApp
+              </a>
+            </li>
           </ul>
         </div>
       )}
