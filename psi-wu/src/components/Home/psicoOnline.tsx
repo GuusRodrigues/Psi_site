@@ -69,7 +69,7 @@ export default function PsicoterapiaSection() {
                 </a>
                 
                 <Link
-                  href="/psicoterapia-online"
+                  href="/psicoOnline"
                   className="px-8 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300"
                   aria-label="Saiba mais sobre psicoterapia online"
                 >
