@@ -5,7 +5,6 @@ export default function SobrePage() {
   return (
     <SectionWrapper className="py-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 items-center">
-        {/* Texto à esquerda */}
         <div className="w-full md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-primary">SOBRE MIM</h2>
           <div className="space-y-4 text-primary">
